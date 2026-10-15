@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arranging divs</title>
+    <style>
+        *{ /* (*) means all elements */
+            padding: 0;
+            margin: 0;
+        }
+        .container-1 {
+            background-color: #000000;
+            color:#ffffff;
+            display: flex; /*flexbox layout */
+            justify-content: center; /*horizontal alignment */
+            align-items: center; /*vertical alignment */
+        }
+        .child-1{
+            width: 70%;
+        }
+        .container-2{
+            background-color: #d3d3d3;
+            display: flex; /*to arrange elements horizontally */
+            padding: 30px;
+            justify-content: space-around;
+            height: 400px;
+        }
+        .child-2{
+            border: 1px dashed #ffffff;
+            width: 40%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- git status -->
+     <!-- fatal: not a git repository (or any of the parent directories): .git -->
+      <!-- git init   -->
+       <!-- git config --global user.name "Dorothy Mitchel" -->
+        <!-- git config --global user.email "dorothy.mitchel@example.com" -->
+
+
+    <div class="container-1">
+        <div class="child-1">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt aut esse adipisci obcaecati nulla consectetur dolorem cupiditate iusto itaque error rem a, pariatur animi iure, cum, eligendi tempora? Dolore.
+            Pariatur reprehenderit amet quisquam, magni blanditiis maxime totam optio exercitationem dolor voluptates, laudantium earum debitis necessitatibus accusamus eos rem. Velit amet placeat illo voluptate ad quasi facere quas cumque explicabo.
+            Sint nam nostrum autem voluptatibus eos asperiores nobis aliquam labore voluptas ullam modi consectetur culpa, animi molestiae odio deleniti corporis earum quibusdam beatae eaque? Maiores aut asperiores optio in dolore?</p>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="child-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur cumque debitis, libero hic, quae perferendis odit sed iste quasi veniam, vel recusandae ipsa at aspernatur id. Asperiores, id et.</p>
+        </div>
+        <div class="child-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae odio necessitatibus hic est veritatis dicta repudiandae harum officiis architecto alias, quibusdam, debitis nostrum, enim ducimus natus dignissimos nam magnam!</p>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>

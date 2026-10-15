@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #0000001a; /* subtle shadow for depth */
+            max-width: 400px; /* limit the width of the form */
+            margin: auto; /* center the form */
+                    }
+
+        .lbl-full{
+            width: 100%;
+            display: block; /*stretch the whole width of the form */
+        }
+        .input-full{
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box; /* ensures padding doesn't affect total width */
+
+            
+        }
+    </style>
+</head>
+<body> 
+    <!-- /*if you put a space in ur class nam it will be interpreted as 2 classes, so avoid spaces in class names*/ -->
+    <!-- form inputs texts, email, password,phone, dates, gender -->
+     <form action="">
+        <label class= "lbl-full" for = "full name">Fisrt and last Name</label>
+        <input class="input-full" type = "text" name = "full name" id = "full name" placholder = "John Doe">
+
+        <label class= "lbl-full" for = "email">Email</label>
+        <input class="input-full" type = "email" name = "email" id = "email" placeholder = "john@example.com">
+
+        <label class= "lbl-full" for = "password">Password</label>
+        <input class="input-full" type = "password" name = "password" id = "password" placeholder = "Enter your password">
+
+        <label class= "lbl-full" for = "phone">Phone</label>
+        <input class="input-full" type="tel" name="phone" id="phone" placeholder="0712345678">
+
+        <label class= "lbl-full" for = "dob">Date of Birth</label>
+        <input class="input-full" type="date" name="dob" id="dob">
+
+        <input type = "radio" name = "gender" id = "male" value = "male">
+        <label for = "male">Male</label>
+
+        <input type = "radio" name = "gender" id = "female" value = "female">
+        <label for = "female">Female</label>
+
+        <p>Select your favourite sports</p>
+        <input type = "checkbox" name = "sports" id = "football" value = "football">
+        <label for = "football">Football</label>
+        <br>
+        <input type = "checkbox" name = "sports" id = "basketball" value = "basketball">
+        <label for = "basketball">Basketball</label>
+        <br>
+        <input type = "checkbox" name = "sports" id = "tennis" value = "tennis">
+        <label for = "tennis">Tennis</label>
+        <br>
+
+        <!-- <label class= "lbl-full" for="gender">Gender</label>
+        <select class="input-full" name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> -->
+
+        <button type = "submit">Submit</button>
+
+     </form>
+
+
+
+</body>
+</html>
