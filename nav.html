@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        *{ 
+            padding: 0;
+            margin: 0;
+         }
+        @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+        body{
+            font-family: "Emilys Candy", serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background: #ffffff;
+            border-bottom: 1px solid #000000;
+        }
+        .nav-items{
+            width: 60%;
+            /* background: #f4f0f0 */
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            align-items:center;
+        }
+
+        .nav-items ul{
+            display: flex;
+            list-style-type: none;
+        }
+
+        .nav-items ul li{
+           margin-right: 16px;
+           margin-left: 16px;
+        }
+        .nav-items a{
+            text-decoration: none;
+            color: #000000;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .nav-items a:hover{
+            color: #800080;
+        }
+        /* git add . */
+        /* git commit -m "Built the nav bar" */ 
+        /* git push */
+
+
+    </style>
+</head>
+<body>
+    <!-- semantic tags -->
+    <nav>   
+        <div class ="nav-items">
+            <ul>
+                <img src="images/pinterest.png" alt="Company logo" width="50px" height="50px">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+        
+</body>
+</html>
