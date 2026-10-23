@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+   --brand-green:#159957;
+   --brand-dark:#1f2d3d;
+   --soft-bg:#f4f8f7;
+}
+
+body{
+    color: var(--brand-dark);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.brand{
+    color: var(--brand-green);
+    font-size:1.45rem;
+}
+#dark-title{
+    color: var(--brand-dark); 
+}
+
+.brand:hover{
+    color: #066b38;
+}
+
+.nav-link{
+    color:#536171;
+}
+
+nav-link:hover,.nav-link.active{
+    color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+}
+
+.btn-success{
+    background-color:var(--brand-green) !important ;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+    transition: all 2s;
+}
+
+.btn-success:hover{
+    background: #025c2f !important;
+    border-color:#036534 !important ;
+}
+
+.hero{
+    padding:3.5rem;
+    background: linear-gradient(to right, #f7faf9, #edf3f1);
+}
+
+top-title{
+    color: var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;  
+}
+
+.hero h1{
+    line-height: 1.2;
+}
+
+.section-heading h2{
+    margin-bottom: ;
+}
+
+.card {
+    border-color: ;
+
+}
+.card:hover {
+    transform: translateY(-4px) rgba(0, 0, 0, 69);
+    box-shadow: -5px 6px 15px -4px ;
+}
+
+
+
+
+
