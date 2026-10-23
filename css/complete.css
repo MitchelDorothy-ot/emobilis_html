@@ -66,12 +66,25 @@ top-title{
 
 .card {
     border-color: ;
-
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.card-body button,.card-body .btn {
+    margin-top: auto;
+}
+
 .card:hover {
     transform: translateY(-4px) rgba(0, 0, 0, 69);
     box-shadow: -5px 6px 15px -4px ;
 }
+
 
 
 
